@@ -1,0 +1,99 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.Head
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.Head-1
+{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 0px 0px 10vh;
+    justify-content: left;
+}
+.P-Head-1
+{
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #212121;
+}
+.Span-Head-1
+{
+    text-decoration: underline;
+}
+.Head-2
+{
+    display: flex;
+    height: 79px;
+    border: 1px solid black;
+    align-items: center;
+}
+.Head-Logo
+{
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding: 0px 0px 0px 10vh;
+    
+}
+.Logo
+{
+    height: 55px;
+}
+.Section-1
+{
+    display: flex;
+    width: 800px;
+    border: 1px solid lightgreen;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.Button-Head-1
+{
+    display: flex;
+    padding: 10px 5px 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Button-Head-1:hover
+{
+    color: rgb(249, 77, 50);
+    transition: 0.15s;
+}
+.Arrow-Head
+{
+    transform: rotate(90deg);
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Arrow-Head:active
+{
+    transform: rotate(-90deg);
+    transition: 3s;
+    color: rgb(249, 77, 50);
+}
+.Reviews, .Coupons, .Tools
+{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+}
