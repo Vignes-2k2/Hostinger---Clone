@@ -1,0 +1,18 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+body
+{
+    padding-bottom: 2000px;
+}
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid rgb(227, 227, 227);
+    padding-bottom: 2000px;
+    
+}
