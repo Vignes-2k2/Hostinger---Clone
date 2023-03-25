@@ -88,6 +88,16 @@ head
     padding-left: 15px;
     padding-right: 15px;
 }
+.button-1-head-3
+{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    width: auto;
+    height: 77px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .button-tag-head-2
 {
     font-weight: bold;
@@ -114,7 +124,19 @@ head
     cursor: pointer;
     transition: 0.3s;
 }
+.button-1-head-3:hover
+{
+    color: rgb(250, 77, 50);
+    cursor: pointer;
+    transition: 0.3s;
+}
 .button-1-head-2:hover .arrow-symbol-head-2
+{
+    color: rgb(250, 77, 50);
+    transform: rotate(-90deg);
+    transition: 0.4s ease-out;
+}
+.button-1-head-3:hover .arrow-symbol-head-2
 {
     color: rgb(250, 77, 50);
     transform: rotate(-90deg);
@@ -147,7 +169,7 @@ head
     object-position: center;
     padding-right: 5px;
 }
-.row-head-2
+.row-1-head-2
 {
     display: flex;
     float: bottom;
@@ -163,23 +185,40 @@ head
     top: 100%;
     box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.25);
 }
+.drp-dwn-head-2-3
+{
+    display: none;
+    position: absolute;
+    width: 440px;
+    top: 100%;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.25);
+}
 .col-1-head-1
 {
     width: 230px;
 }
-
-
 .button-1-head-2:hover .drp-dwn-head-2-2
 {
     display: block;
-    transition: all 0.5s ease;
+    transition: all 0.5s;
+}
+.button-1-head-3:hover .drp-dwn-head-2-3
+{
+    display: block;
+    transition: all 0.5s;
 }
 .heading-head-2
 {
+    display: inline-block;
     font-weight: bold;
     font-size: 12px;
     padding-bottom: 15px;
     padding-top: 23px;
+}
+.heading-head-2:hover
+{
+    color: rgb(250, 77, 50);
+    transition: 0.5s ease-in-out;
 }
 .dd-content-head-2
 {
@@ -196,5 +235,111 @@ head
 .dd-content-head-2:hover
 {
     color: rgb(250, 77, 50);
-    transition: 0.25s ease-in-out;
+    transition: 0.40s ease-in-out;
+}
+.view-best-head-2
+{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    
+}
+.view-best-arrow-head-2
+{
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    color:rgb(250, 77, 50);
+}
+.dd-arrow-content-2-2
+{
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgb(250, 77, 50);
+}
+.view-best-head-2:hover .view-best-arrow-head-2, .view-best-head-2:hover  .dd-arrow-content-2-2
+{
+    transition: all 0.35s ease-in;
+    color: rgb(58, 56, 56);
+}
+.row-2-head-2
+{
+    display: flex;
+    width: 1200px;
+    position: relative;
+    background-color: rgb(245, 243, 250);
+    justify-content: space-between;
+}
+.row-2-section-1
+{
+    display: flex;
+    position: relative;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border-left: 1px solid rgba(126, 113, 113, 0.3);
+    
+}
+.row-2-section-head-2
+{
+    width: 169.9px;
+    height: 70px;
+    margin: 0px;
+    padding: 13px 0px 12px ;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+.row-2-logo-section-head-2
+{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    color: rgb(250, 77, 50);
+    padding-bottom: 8px;
+    
+}
+.label-row-2-section-head-2
+{
+    width: 160px;
+    display: inline-block;
+    color: rgb(250, 77, 50);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.row-2-section-1:hover .label-row-2-section-head-2
+{
+    color: black;
+    transition: all 0.30s ease-in;
+}
+.tools-icon-head-2
+{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.drp-dwn-head-2-3-more
+{
+    width: 440px;
+    background-color: rgb(245, 243, 250);
+}
+.button-drp-dwn-head-2-3
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(250, 77, 50);
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+
+}
+.drp-dwn-head-2-3-more:hover .button-drp-dwn-head-2-3
+{
+    text-decoration: underline;
+    transition: 0.8s ease-in-out;
 }
